@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtNameU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtPrice"
+        android:ems="100"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDesU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:hint="Descrição"
+        android:inputType="textPersonName" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageU"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/hack1"
+            android:layout_marginLeft="35px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/btnChooseU"
+            android:text="Escolha a Imagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#23c1cd"
+            android:layout_marginBottom="45dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp" />
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btnAddU"
+        android:text="Atualizar"
+        android:background="#23c1cd"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/btnListU"
+        android:text="Food List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="#23c1cd"
+        android:layout_gravity="center"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd" />
+
+</LinearLayout>

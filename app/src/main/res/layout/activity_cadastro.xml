@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.multitalento.multitalento.CadastroActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Empresa:"
+        android:textAlignment="center"
+        android:layout_marginLeft="55px"
+        android:layout_marginRight="55px"
+        android:layout_marginBottom="35px"
+        android:layout_marginTop="55px"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome:"
+        android:textAlignment="center"
+        android:layout_marginLeft="55px"
+        android:layout_marginRight="55px"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail:"
+        android:textAlignment="center"
+        android:layout_marginLeft="55px"
+        android:layout_marginRight="55px"
+        android:layout_marginBottom="55px"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha:"
+        android:textAlignment="center"
+        android:layout_marginLeft="55px"
+        android:layout_marginRight="55px"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Senha:"
+        android:textAlignment="center"
+        android:layout_marginLeft="55px"
+        android:layout_marginRight="55px"
+        android:layout_marginBottom="65px"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_x="194dp"
+        android:layout_y="2dp"
+        android:layout_gravity="left">
+
+        <CheckBox
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:text="Pessoa Fisica"
+            android:id="@+id/checkbox"
+            android:layout_marginLeft="140px"
+            />
+
+        <CheckBox
+            android:layout_width="290px"
+            android:layout_height="wrap_content"
+            android:text="Pessoa Juridica"
+            android:layout_toRightOf="@+id/checkbox"
+             />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

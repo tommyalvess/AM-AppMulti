@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "820281679926",
+    "firebase_url": "https://appmultitalentos.firebaseio.com",
+    "project_id": "appmultitalentos",
+    "storage_bucket": "appmultitalentos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820281679926:android:1fb02226cdd54e25",
+        "android_client_info": {
+          "package_name": "br.com.multitalento.multitalento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820281679926-80j2rlgv0gsprbgvmt1ic029uf4b60tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.multitalento.multitalento",
+            "certificate_hash": "905478db99f70da5b2b0844a0e8375464160f4b7"
+          }
+        },
+        {
+          "client_id": "820281679926-riah4mv91ijfp8cl0hj3sd88le6ca3sb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "820281679926-lfbn2l1b32rnj83rqhnp7r5gk0rusrb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTaRUNrCms_fxe3oVaNkNAWUEAhQcHsTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

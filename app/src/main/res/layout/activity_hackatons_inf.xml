@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.multitalento.multitalento.HackatonsInfActivity">
+
+
+    <fragment
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:id="@+id/youtubeplayerfragment"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição do Hackaton"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="15px"
+        android:layout_marginBottom="15px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDes"
+        android:layout_marginLeft="35px"
+        android:layout_marginRight="35px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parceiro"
+        android:textStyle="bold"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="100px"
+        />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="12px"
+        android:layout_marginLeft="35px"
+        />
+
+</LinearLayout>

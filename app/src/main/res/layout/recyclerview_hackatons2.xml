@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:id="@+id/relativeLayout"
+        android:background="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:id="@+id/imgHackaton"
+            tools:src="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNome"
+            android:textStyle="bold"
+
+            tools:text="Nome do Desafio"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/imgHackaton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDes"
+            tools:text="Descrição do desafio"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/txtNome"
+            android:layout_alignStart="@+id/txtNome" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

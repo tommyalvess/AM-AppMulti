@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="des1">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos</string>
+    <string name="sem_acesso">Voce não tem premissão para acessa o local do arquivo!</string>
+    <string name="atualizado">Atualizado com Sucesso!!!</string>
+    <string name="error_atualizacao">Erro na atualização!</string>
+    <string name="sure">Você tem certeza que quer fazer isso?</string>
+    <string name="aviso">Warning!!</string>
+    <string name="deletado_sucesso">Deletado com Sucesso</string>
+</resources>

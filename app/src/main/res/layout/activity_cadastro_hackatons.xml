@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.multitalento.multitalento.CadastroActivity">
+
+    <EditText
+        android:id="@+id/edtNameC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtDesC"
+        android:ems="100"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDesC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:hint="Descrição"
+        android:inputType="textPersonName" />
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/imageViewC"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           app:srcCompat="@drawable/hack1"
+           android:layout_marginLeft="35px"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="18dp" />
+
+       <Button
+           android:id="@+id/btnChooseC"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:layout_centerVertical="true"
+           android:layout_marginEnd="34dp"
+           android:background="#23c1cd"
+           android:text="Escolha a Imagem" />
+   </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btnAddC"
+        android:text="Adicionar"
+        android:background="#23c1cd"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/btnListC"
+        android:text="Ver Todos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="#23c1cd"
+        android:layout_gravity="center"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MultiTalento</string>
+    <string name="email">Email:</string>
+    <string name="senha">Senha:</string>
+    <string name="login">LOGIN</string>
+    <string name="cadastrar_com_e_mail">Cadastrar com E-mail</string>
+    <string name="n_o_tem_cadastro">Não Tem Cadastro?</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="des">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao</string>
+    <string name="des1">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos</string>
+    <string name="title_activity_empresa">EmpresaActivity</string>
+    <string name="title_activity_desafios">DesafiosActivity</string>
+    <string name="n_logado">nao logado</string>
+    <string name="sem_acesso">Voce não tem premissão para acessa o local do arquivo!</string>
+    <string name="atualizado">Atualizado com Sucesso!!!</string>
+    <string name="error_atualizacao">Erro na atualização!</string>
+    <string name="sure">Você tem certeza que quer fazer isso?</string>
+    <string name="aviso">Warning!!</string>
+    <string name="deletado_sucesso">Deletado com Sucesso</string>
+</resources>
